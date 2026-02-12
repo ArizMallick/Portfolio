@@ -31,19 +31,19 @@ let clipNames = [
 let projects = [
   {
     image: 'textures/project-1.png',
-    url: 'https://github.com/zeddkhan03/Martian-Bistro',
-  },
-  {
-    image: 'textures/project-4.png',
-    url: 'https://github.com/zeddkhan03/Currency-Classification',
-  },
-  {
-    image: 'textures/project-3.png',
-    url: 'https://github.com/zeddkhan03/AI-ChatBot',
+    url: 'https://github.com/ArizMallick/Advanced-Threat-Hunter',
   },
   {
     image: 'textures/project-2.png',
-    url: 'https://github.com/zeddkhan03/ImageGen-OpenAI',
+    url: 'https://github.com/ArizMallick/Task-List-Django',
+  },
+  {
+    //image: 'textures/project-3.png',
+    //url: 'https://github.com/zeddkhan03/AI-ChatBot',
+  },
+  {
+    //image: 'textures/project-2.png',
+    //url: 'https://github.com/zeddkhan03/ImageGen-OpenAI',
     
   },
 ];
@@ -190,7 +190,7 @@ gltfLoader.load(
 
         // adding texture to book
         const bookTexture = new THREE.TextureLoader().load(
-          'textures/book-inner.jpg'
+          'textures/Ariz-Resume.png'
         );
         bookTexture.flipY = false;
         child.material = new THREE.MeshStandardMaterial({
@@ -320,7 +320,7 @@ function loadIntroText() {
       new THREE.MeshPhongMaterial({ color: 0x171f27, flatShading: true }),
       new THREE.MeshPhongMaterial({ color: 0xffffff }),
     ];
-    const titleGeo = new TextGeometry('Mohd Zaid Khan', {
+    const titleGeo = new TextGeometry('Ariz Hasan', {
       font: font,
       size: 0.08,
       height: 0.01,
@@ -337,7 +337,7 @@ function loadIntroText() {
       new THREE.MeshPhongMaterial({ color: 0xffffff }),
     ];
     const subTitleGeo = new TextGeometry(
-      'Cloud Engineer | Full Stack Developer | Tech Enthusiast',
+      'DevOps Engineer | Cybersecurity | Tech Enthusiast',
       {
         font: font,
         size: 0.018,
