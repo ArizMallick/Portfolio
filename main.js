@@ -128,7 +128,7 @@ gltfLoader.load(
 
     // load video
     const video = document.createElement('video');
-    video.src = 'textures/arcane.mp4';
+    video.src = 'textures/arcane2.mp4';
     video.muted = true;
     video.playsInline = true;
     video.autoplay = true;
