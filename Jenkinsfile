@@ -1,7 +1,7 @@
 pipeline {
 agent any
 
-```
+
 tools {
     nodejs 'NodeJS'
 }
@@ -67,6 +67,6 @@ post {
         cleanWs()
     }
 }
-```
+
 
 }
